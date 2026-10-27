@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Career Guidance System</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+<nav><a class="brand" href="#">PathFinder 🎓</a><a href="#assessment">Find My Career</a></nav>
+<div class="hero-content"><p class="eyebrow">YOUR FUTURE STARTS HERE</p><h1>Discover a career that<br><span>fits you.</span></h1>
+<p>Explore career paths based on your interests, favorite subjects, and strengths.</p><a class="btn" href="#assessment">Start Career Assessment →</a></div>
+<div class="hero-icon">🎓<span>💡</span><i>🚀</i></div>
+</header>
+<main>
+<section class="section"><p class="eyebrow">HOW IT WORKS</p><h2>A clearer path to your future</h2><div class="cards">
+<article><b>🧭</b><h3>1. Tell us about you</h3><p>Choose your interests, favorite subject, and strengths.</p></article>
+<article><b>✨</b><h3>2. Explore your matches</h3><p>See career ideas that connect with your answers.</p></article>
+<article><b>🗺️</b><h3>3. Plan your next steps</h3><p>Review skills and learning suggestions for each path.</p></article></div></section>
+<section class="assessment" id="assessment"><p class="eyebrow">CAREER ASSESSMENT</p><h2>Let's find your direction</h2><p class="sub">Answer these questions to get starter career suggestions.</p>
+<form id="career-form"><div class="fields">
+<label>Your name (optional)<input id="student-name" placeholder="Enter your name"></label>
+<label>Education level<select id="education" required><option value="">Choose your level</option><option>Class 8–10</option><option>Class 11–12</option><option>Diploma</option><option>Undergraduate</option><option>Postgraduate</option></select></label>
+<label>Favorite subject<select id="subject" required><option value="">Choose a subject</option><option>Mathematics</option><option>Science</option><option>Computer Science</option><option>Biology</option><option>Commerce</option><option>Arts and Languages</option><option>Social Studies</option></select></label>
+<label>What do you enjoy most?<select id="interest" required><option value="">Choose an interest</option><option value="technology">Technology and building things</option><option value="people">Helping and teaching people</option><option value="creative">Designing and creating</option><option value="business">Business and leadership</option><option value="research">Discovering and solving problems</option><option value="nature">Nature and the environment</option></select></label></div>
+<fieldset><legend>Choose your strengths (select at least one)</legend><div class="checks">
+<label><input type="checkbox" name="strength" value="analytical"> Logical thinking</label><label><input type="checkbox" name="strength" value="communication"> Communication</label><label><input type="checkbox" name="strength" value="creative"> Creativity</label><label><input type="checkbox" name="strength" value="leadership"> Leadership</label><label><input type="checkbox" name="strength" value="care"> Patience and empathy</label><label><input type="checkbox" name="strength" value="practical"> Practical problem-solving</label></div></fieldset>
+<button class="btn" type="submit">Show My Career Ideas →</button><p class="note">Your answers are processed in this browser and are not sent to a server.</p></form>
+<div id="results" class="results" aria-live="polite" hidden></div></section>
+<section class="section"><p class="eyebrow">EXPLORE OPTIONS</p><h2>Career paths to discover</h2><div class="career-grid">
+<article><b>💻</b><h3>Technology</h3><p>Software development, cybersecurity, data analysis.</p></article><article><b>🩺</b><h3>Healthcare</h3><p>Medicine, nursing, pharmacy, public health.</p></article><article><b>🎨</b><h3>Creative fields</h3><p>Graphic design, animation, media, writing.</p></article><article><b>📊</b><h3>Business</h3><p>Accounting, marketing, entrepreneurship, finance.</p></article><article><b>🔬</b><h3>Science & research</h3><p>Research, laboratory work, engineering, analytics.</p></article><article><b>🌱</b><h3>Environment</h3><p>Environmental science, conservation, agriculture.</p></article></div></section>
+<div class="disclaimer"><strong>Remember:</strong> These suggestions are starting points, not a test of your ability. Talk with teachers or career counselors and check official course and admission requirements.</div>
+</main><footer>PathFinder · Student Career Guidance System <span>Made for student exploration 💙</span></footer>
+<script src="script.js"></script></body></html>
